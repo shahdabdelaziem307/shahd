@@ -1,0 +1,683 @@
+body {
+    background-color: #161616;
+    font-family: "Source Serif Pro";
+        font-size: 15px;
+            line-height: 1.86em;
+                color: #999;
+             
+           
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+img {
+    width: 100%;
+    display: block;
+}
+.clr {
+    clear: both;
+}
+.itemb{
+    border-bottom: 1px solid #999;
+        margin-top: 17px;
+        width: 11%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    
+}
+.container {}
+h1,h2,h3,h4,h5,h6 {
+        color: #fff;
+            margin-bottom: 25px;
+    }
+    h2 {
+        font-size: 32px;
+        font-weight: 400;
+    }
+    h5,h6 {
+         font-weight: 500;
+    }
+    p{
+        line-height: 1.88em;
+        
+    }
+/* start section home */
+.home .container {
+        background-image: url(../img/full-3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 743px;
+        color: #fff;
+        text-align: left;
+         line-height: 1.3;
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+            
+}
+.home .container .parent {
+   
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: left;
+
+     
+}
+.home .container .home-text {
+        color: rgba(255, 255, 255, .92);
+        margin-bottom: 5px;
+            font-size: 22px;
+        }
+.home .container .parent {
+        width: 500px;
+}
+.home .container .parent .home-text h1 {
+font-size: 76px;
+    margin-bottom: 18px;
+        line-height: 1.2em;
+        font-weight: 400;
+            font-family: "Source Serif Pro";
+
+}
+.home .container .parent .home-text p{
+    line-height: 2;
+  
+
+}
+.home .container .parent .btn {
+ margin-top: 30px;
+
+}
+.home .container .parent .btn button {
+        background-color: #fff;
+        padding: 15px 28px;
+        font-family:"Source Serif Pro" ;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        color: #121212;
+        position: relative;
+        border-radius:2px;
+        border: 1px solid transparent;
+        z-index: 1;
+      
+
+        }
+       
+.home .container .parent .btn .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #cccccc;;
+    opacity: 0;
+    inset: 0;
+    z-index: -1;
+}
+.home .container .parent .btn:hover .overlay {
+    opacity: 1;
+}
+
+.two , .four  {
+    /* background-color: #161616; */
+    color: #fff;
+     
+    padding-top: 75px  ;
+     padding-bottom: 40px ;
+   
+    
+}
+.two .container {
+    margin:0px auto;
+    width: 80%;
+
+}
+.two .parent , .four .parent {
+    text-align: center;
+
+     
+}
+.two .parent .heading{
+    margin-bottom: 30px;
+}
+.two .parent .heading h2 {
+        line-height: 1.38;
+        margin-top: 0;
+}
+.two .parent .heading {
+
+    display: inline-block;
+}
+.two .parent .text {
+        margin-bottom: 30px;
+}
+.two .parent .text p {
+
+display: inline-block;
+    font-size: 1.2em;
+    color: #606060;
+        font-weight: 400;
+}
+
+.three , .five {
+    padding: 83px;
+    background-color: #1d1d1d;
+}
+ 
+.three .container .items {
+float: left;
+    width: 45%;
+}
+.three .container .item {
+   
+    text-align: left;
+}
+.three .container .item2 {
+        margin-left: 59px;
+}
+.three .container .item p {
+    color: #999;
+}
+.three .container .part2 {
+    padding-top: 19px;
+}
+
+.four .container , .five .container{
+    width: 80%;
+    margin: auto;
+}
+.four .parent .one , .five .parent .one {
+    margin-bottom: 60px;
+}
+.four .parent .one h3 , .five .parent .one h3{
+font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 500;
+    display: inline-block;
+}
+.four .parent .one p , .five .parent .one p {
+        font-size: 17px;
+            color: #888;
+            max-width: 720px;
+            margin: 17px auto 0;
+}
+.four  .list {
+    padding: 10px;
+    text-align: center;
+}
+.four  ul {
+        margin-bottom: 45px;
+}
+.four  .list li{
+    display: inline-block;
+   margin-left: 20px;
+color: #888;
+}
+.four .list .active {
+    border-bottom: 1px solid #888;
+    color: #fff;
+     
+}
+.four .container li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.four .col , .five .col {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+   
+}
+ 
+.four .col .card {
+    padding: 10px;
+}
+.four .card .card-img {
+    position: relative;
+    overflow: hidden;
+        margin-bottom: 12px;
+}
+.four .overlay {
+background-color: #1d1d1db2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.four .card-img img {
+    transition: all 0.5s;
+}
+.four .card-img:hover .overlay {
+    opacity: 1;
+    
+}
+ .four .card-img:hover img {
+    transform: scale(1.1);
+ }
+ .four .card-img .btnss {
+    position: relative;
+    top: 50%;
+
+    transform: translateY(20px);
+   
+ }
+ .four .card-img button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    background: rgba(255, 255, 255, 0.8);
+   
+
+    }
+ 
+ .four .card-img .btnss i {
+font-size: 15px;
+    transition: opacity .3s;
+    border-radius: 100%;
+    color: #333;
+    
+ }
+ .four .card-img:hover .btnss {
+    transform: translatey(0px);
+ }
+ 
+.four .btn {
+    text-align: center;
+}
+.four .btn button{
+    color:#fff;
+    border: 1px solid transparent;
+    background-color: #1d1d1d;
+    line-height: 1.86;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding: 20px;
+    font-weight: 700;
+    font-family: "Source Serif Pro";
+    cursor: pointer;
+
+}
+
+ .five .parent {
+    text-align: center;
+ }
+
+ .five .col {
+    padding: 10px;
+        margin-bottom: 35px;
+                
+ }
+ .five .cardtext {
+    padding-right: 10px;
+    background-color: #232323;
+    text-align: start;
+    padding: 22px;
+   
+ }
+ .five .cardtext h5 {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+    
+ }
+ .five .cardtext .paragrh1 {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.3em;
+    margin-top: 6px;
+    margin-bottom: 10px;
+ }
+  .five .cardtext .paragrh1 span:hover  {
+color: #6666663a;
+cursor: pointer;
+  }
+ .five .cardtext .text p {
+    line-height: 1.96em;
+     margin-bottom: 15px;
+    color: #999;
+ }
+ .five .cardtext .text a {
+    text-decoration: none;
+        color: #cfcfcf;
+        transition: all 0.5s;
+ }
+ .five .cardtext .text a span {
+    margin-left: 7px;
+ }
+ .five .container .text a i {
+    font-size: 13px;
+ }
+ .five .container .text a:hover {
+   color: #6666663a; 
+    cursor: pointer;
+ }
+ .five .container .text a:hover i {
+    margin-left: 10px;
+ }
+ .five .container .btn button {
+        background-color: #333333;
+            border: 2px solid transparent;
+            margin-bottom: 12px;
+            text-decoration: none;
+        padding: 11px 20px;
+            border-radius: 4px;
+            font-size: 12px;
+            text-transform: uppercase;
+            word-spacing: 2px;
+ }
+.five .container .btn button a {
+    text-decoration: none;
+
+        color: #fff;
+        font-family: "Source Serif Pro";
+            cursor: pointer;
+            font-weight: 700;
+
+}
+.five .container .btn i {
+    margin-left: 10px;
+}
+
+.footer {
+            background-color: #101010;
+        padding-top: 55px;
+        padding-bottom: 50px;
+            color: #797979;
+}
+.footer .container {
+    width: 80%;
+    margin: auto;
+}
+.footer .parent{
+   text-align: center; 
+}
+.footer .parent .footer-image{
+    
+    margin-bottom: 25px;
+        margin-top: 10px;
+    display: inline-block;
+}
+.footer .parent .copyright {
+    font-size: 13px;
+        color: #777;
+    
+       
+}
+.footer .parent .social-icons  {
+
+        text-align: center;
+            margin-top: 15px;
+}
+ 
+.footer .parent .social-icons a {
+display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #535353;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: #333333;
+    border-radius: 100%;
+    overflow: hidden;
+  
+
+}
+.footer .parent .social-icons .social:hover {
+    color: #fff;
+}
+.footer .parent .social-icons .icon-facebook:hover {
+ background-color:#4267B2;
+
+}
+.footer .parent .social-icons .icon-google:hover {
+ background-color:#DB4437;
+  
+}
+.footer .parent .social-icons .icon-linkedin:hover {
+ background-color:#0077b5;
+  
+}
+.footer .parent .social-icons .icon-twitter:hover {
+ background-color:#1DA1F2;
+  
+}
+
+.about  {
+    background-image: url(../img/source-404.jpeg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 222px;
+    color: #fff;
+    text-align: left;
+    line-height: 1.3;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    
+    
+
+}
+.about .container {
+    position: relative;
+        z-index: 1;
+        margin: auto;
+        width: 80%;
+        text-align: center;
+ 
+}
+.about .page-title-inner {
+position: absolute;
+    left: 0;
+    right: 0;
+    top: 21%;
+ 
+}
+.about .page-title-inner h1 {
+font-size: 42px;
+color: #fff;
+line-height: 1.38em;
+font-weight: 400;
+}
+.about .page-title-inner p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    font-size: 18px;
+    margin: 12px 0 10px 0;
+    color: #fff;
+}
+
+ .grand {
+
+     width: 85%;
+     margin: auto;
+     padding: 77px 0;
+
+ }
+
+ .grand .container {
+     padding: 70px 0;
+ }
+
+ .grand .container .item {
+     width: 45%;
+     float: left;
+
+     text-align: left;
+
+
+ }
+
+ .grand .container .item2 {
+     margin-left: 59px;
+ }
+
+ .grand .container h2 {
+     color: #fff;
+     line-height: 1.38em;
+     font-size: 32px;
+     margin-bottom: 25px;
+     font-weight: 400;
+ }
+
+ .grand .container .part2 {
+     padding-top: 19px;
+ }
+ .grand .container .part3 {
+    margin-top: 10px;
+ }
+
+ 
+
+.about-four {
+    padding: 70px 0;
+}
+.about-four .container {
+    width: 80%;
+    margin: auto;
+   
+  
+}
+
+.about-four .container .cards {
+    padding-top: 10px;
+}
+
+.about-four .cards .card {
+    width: 24%;
+    float: left;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.about-four .cards i {
+    font-size: 36px;
+    padding: 25px;
+
+    color: #fff;
+}
+
+.about-four .icon {
+    background: 0 0;
+    border: 1px solid rgba(0, 0, 0, .15);
+   background-color: #333333;;
+    border-radius: 100%;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+}
+
+.about-four .container .cards .text {
+    padding-top: 20px;
+}
+
+.about-four .container .cards .text p {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+    line-height: 1.86em;
+}
+
+.about-four .container .cards .text h4 {
+    margin-bottom: 11px;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.about-five {
+    background-color: #1d1d1d;
+    padding: 83px 0;
+}
+.about-five .container {
+    width: 80%;
+    margin: auto;
+}
+.about-five .parent {
+    text-align: center;
+}
+.about-five .parent .list {
+    list-style: none;
+}
+.about-five .parent li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.5s;
+    
+}
+.about-five .parent li button {
+    font-family: "Source Serif Pro";
+    padding: 13px;
+    background: rgba(0, 0, 0, 0.07);
+    border: 1px solid transparent;
+color: #888;
+font-size: 12px;
+z-index: 1;
+border-radius: 2px;
+    
+}
+.about-five .parent li .active {
+    background-color: #333333;
+    color: #fff;
+    font-size: 12px;
+     
+    font-weight: bold;
+}
+.about-five .parent .li .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    background-color: #12121248;
+    opacity: 0;
+    z-index: -1;
+}
+.about-five .parent .li:hover .overlay {
+    opacity: 1;
+}
+.about-five .parent li:hover {
+    background-color:#3333335d;
+}
+ .about-five .parent .text {
+        padding: 35px 0 10px;
+ }
+ .about-five .col {
+    float: left;
+    width: 50%;
+ }
+ .about-five .col .card {
+       
+            text-align: left;
+                padding-left: 15px;
+                    padding-right: 15px;
+                     
+ }
+ .album {
+    background-color: #101010;
+    padding:70px 0;
+ }
+ .album h1 {
+        font-size: 40px;
+        color: #fff;
+        font-weight: 500;
+ }
+ 
+ 
+ 
+
